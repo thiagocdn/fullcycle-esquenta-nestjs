@@ -1,4 +1,4 @@
-import { Controller, Post, Body, UseGuards, Req } from '@nestjs/common';
+import { Controller, Post, Body, UseGuards, Req, Get } from '@nestjs/common';
 import { PartnersService } from './partners.service';
 import { CreatePartnerDto } from './dto/create-partner.dto';
 import { AuthGuard } from 'src/auth/auth.guard';
@@ -16,10 +16,11 @@ export class PartnersController {
     });
   }
 
-  // @Get()
-  // findAll() {
-  //   return this.partnersService.findAll();
-  // }
+  // Feito apenas para testes.
+  @Get()
+  findAll() {
+    return this.partnersService.findAll();
+  }
 
   // @Get(':id')
   // findOne(@Param('id') id: string) {
