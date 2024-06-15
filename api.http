@@ -18,7 +18,7 @@ Content-Type: application/json
 
 {
     "name": "John Doe",
-    "email": "john2@doe.com",
+    "email": "john4@doe.com",
     "password": "123"
 }
 
@@ -27,20 +27,43 @@ POST http://localhost:3000/auth/login
 Content-Type: application/json
 
 {
-    "email": "john2@doe.com",
+    "email": "john4@doe.com",
     "password": "123"
 }
 
 ###
 POST http://localhost:3000/partners
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NywibmFtZSI6IkpvaG4gRG9lIiwiZW1haWwiOiJqb2huMkBkb2UuY29tIiwicm9sZXMiOlsiUEFSVE5FUiJdLCJjcmVhdGVkQXQiOiIyMDI0LTA2LTE0VDIzOjU1OjI1LjY3NloiLCJ1cGRhdGVkQXQiOiIyMDI0LTA2LTE0VDIzOjU1OjI1LjY3NloiLCJpYXQiOjE3MTg0MTE3MDQsImV4cCI6MTcxODQ5ODEwNH0.yjKWlNUv-iQsaDQine1F_iKwWDwuwVeXg_CJTUVyRuY
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsIm5hbWUiOiJKb2huIERvZSIsImVtYWlsIjoiam9objRAZG9lLmNvbSIsInJvbGVzIjpbIlBBUlRORVIiXSwiY3JlYXRlZEF0IjoiMjAyNC0wNi0xNVQwMToyMzo1NS4wMjRaIiwidXBkYXRlZEF0IjoiMjAyNC0wNi0xNVQwMToyMzo1NS4wMjRaIiwiaWF0IjoxNzE4NDE0NjQzLCJleHAiOjE3MTg1MDEwNDN9.JqNXMn0xGG4Q0gtBSB-91HVVIIqSQoq70edm-_jmllc
     
 {
-    "name": "Partner"
+    "name": "Partner New"
 }
 
 ###
 GET http://localhost:3000/partners
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NywibmFtZSI6IkpvaG4gRG9lIiwiZW1haWwiOiJqb2huMkBkb2UuY29tIiwicm9sZXMiOlsiUEFSVE5FUiJdLCJjcmVhdGVkQXQiOiIyMDI0LTA2LTE0VDIzOjU1OjI1LjY3NloiLCJ1cGRhdGVkQXQiOiIyMDI0LTA2LTE0VDIzOjU1OjI1LjY3NloiLCJpYXQiOjE3MTg0MTE3MDQsImV4cCI6MTcxODQ5ODEwNH0.yjKWlNUv-iQsaDQine1F_iKwWDwuwVeXg_CJTUVyRuY
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsIm5hbWUiOiJKb2huIERvZSIsImVtYWlsIjoiam9objRAZG9lLmNvbSIsInJvbGVzIjpbIlBBUlRORVIiXSwiY3JlYXRlZEF0IjoiMjAyNC0wNi0xNVQwMToyMzo1NS4wMjRaIiwidXBkYXRlZEF0IjoiMjAyNC0wNi0xNVQwMToyMzo1NS4wMjRaIiwiaWF0IjoxNzE4NDE0NjQzLCJleHAiOjE3MTg1MDEwNDN9.JqNXMn0xGG4Q0gtBSB-91HVVIIqSQoq70edm-_jmllc
+
+
+###
+POST http://localhost:3000/events
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsIm5hbWUiOiJKb2huIERvZSIsImVtYWlsIjoiam9objRAZG9lLmNvbSIsInJvbGVzIjpbIlBBUlRORVIiXSwiY3JlYXRlZEF0IjoiMjAyNC0wNi0xNVQwMToyMzo1NS4wMjRaIiwidXBkYXRlZEF0IjoiMjAyNC0wNi0xNVQwMToyMzo1NS4wMjRaIiwiaWF0IjoxNzE4NDE0NjQzLCJleHAiOjE3MTg1MDEwNDN9.JqNXMn0xGG4Q0gtBSB-91HVVIIqSQoq70edm-_jmllc
+
+{
+    "name": "Evento New 2",
+    "date": "2024-06-14T23:55:25.675Z",
+    "description": "Evento top do Partner New"
+}
+
+###
+GET http://localhost:3000/events
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsIm5hbWUiOiJKb2huIERvZSIsImVtYWlsIjoiam9objRAZG9lLmNvbSIsInJvbGVzIjpbIlBBUlRORVIiXSwiY3JlYXRlZEF0IjoiMjAyNC0wNi0xNVQwMToyMzo1NS4wMjRaIiwidXBkYXRlZEF0IjoiMjAyNC0wNi0xNVQwMToyMzo1NS4wMjRaIiwiaWF0IjoxNzE4NDE0NjQzLCJleHAiOjE3MTg1MDEwNDN9.JqNXMn0xGG4Q0gtBSB-91HVVIIqSQoq70edm-_jmllc
+
+{
+    "name": "Evento",
+    "date": "2024-06-14T23:55:25.675Z",
+    "description": "Evento top"
+}
