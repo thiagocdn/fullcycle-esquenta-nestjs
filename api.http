@@ -60,10 +60,4 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsIm5hbWUiO
 ###
 GET http://localhost:3000/events
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsIm5hbWUiOiJKb2huIERvZSIsImVtYWlsIjoiam9objRAZG9lLmNvbSIsInJvbGVzIjpbIlBBUlRORVIiXSwiY3JlYXRlZEF0IjoiMjAyNC0wNi0xNVQwMToyMzo1NS4wMjRaIiwidXBkYXRlZEF0IjoiMjAyNC0wNi0xNVQwMToyMzo1NS4wMjRaIiwiaWF0IjoxNzE4NDE0NjQzLCJleHAiOjE3MTg1MDEwNDN9.JqNXMn0xGG4Q0gtBSB-91HVVIIqSQoq70edm-_jmllc
-
-{
-    "name": "Evento",
-    "date": "2024-06-14T23:55:25.675Z",
-    "description": "Evento top"
-}
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsIm5hbWUiOiJKb2huIERvZSIsImVtYWlsIjoiam9objRAZG9lLmNvbSIsInJvbGVzIjpbIlBBUlRORVIiXSwiY3JlYXRlZEF0IjoiMjAyNC0wNi0xNVQwMToyMzo1NS4wMjRaIiwidXBkYXRlZEF0IjoiMjAyNC0wNi0xNVQwMToyMzo1NS4wMjRaIiwiaWF0IjoxNzE4NDE1ODQ1LCJleHAiOjE3MTg1MDIyNDV9.m1V9l9R8-EbjhflmzGFbAEFEwAuyiXwbRCWtzGR7t2g
