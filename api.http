@@ -31,4 +31,11 @@ Content-Type: application/json
     "password": "123"
 }
 
-
+###
+POST http://localhost:3000/partners
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NywibmFtZSI6IkpvaG4gRG9lIiwiZW1haWwiOiJqb2huMkBkb2UuY29tIiwicm9sZXMiOlsiUEFSVE5FUiJdLCJjcmVhdGVkQXQiOiIyMDI0LTA2LTE0VDIzOjU1OjI1LjY3NloiLCJ1cGRhdGVkQXQiOiIyMDI0LTA2LTE0VDIzOjU1OjI1LjY3NloiLCJpYXQiOjE3MTg0MTE3MDQsImV4cCI6MTcxODQ5ODEwNH0.yjKWlNUv-iQsaDQine1F_iKwWDwuwVeXg_CJTUVyRuY
+    
+{
+    "name": "Partner"
+}
